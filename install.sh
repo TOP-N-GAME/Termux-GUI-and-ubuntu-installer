@@ -60,7 +60,8 @@ apt install -y \
   libxi-dev \
   libxrandr-dev \
   libwayland-dev \
-  firefox
+  default-jdk \
+  firefox 
 EOF
 
 chmod +x ~/installenv
