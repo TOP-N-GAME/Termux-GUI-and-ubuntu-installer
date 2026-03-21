@@ -46,6 +46,7 @@ cat > ~/installenv << 'EOF'
 apt update
 apt upgrade -y
 apt install -y \
+  git \
   build-essential \
   scons \
   pkg-config \
