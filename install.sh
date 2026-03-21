@@ -60,7 +60,26 @@ apt install -y \
   libxi-dev \
   libxrandr-dev \
   libwayland-dev \
+  libembree-dev \
+  libenet-dev \
+  libfreetype-dev \
+  libpng-dev \
+  zlib1g-dev \
+  libgraphite2-dev \
+  libharfbuzz-dev \
+  libogg-dev \
+  libtheora-dev \
+  libvorbis-dev \
+  libwebp-dev \
+  libmbedtls-dev \
+  libminiupnpc-dev \
+  libpcre2-dev \
+  libsdl3-dev \
+  libzstd-dev \
+  libsquish-dev \
+  libicu-dev \
   default-jdk \
+  emscripten \
   firefox 
 EOF
 
