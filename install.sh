@@ -46,7 +46,6 @@ cat > ~/installenv << 'EOF'
 apt update
 apt upgrade -y
 apt install -y \
-  git \
   build-essential \
   scons \
   pkg-config \
@@ -79,7 +78,15 @@ apt install -y \
   libzstd-dev \
   libsquish-dev \
   libicu-dev \
+
+  git \
+
+  mingw-w64 \
+
+  android-sdk \
+  gradle \
   default-jdk \
+
   emscripten \
   firefox 
 EOF
